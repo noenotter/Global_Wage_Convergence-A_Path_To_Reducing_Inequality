@@ -1,0 +1,508 @@
+Country,Sex,Year,Value 
+Armenia,Sex: Total,2018,45.97
+Armenia,Sex: Male,2018,48.44
+Armenia,Sex: Female,2018,42.91
+Armenia,Sex: Total,2017,42.75
+Armenia,Sex: Male,2017,45.39
+Armenia,Sex: Female,2017,39.86
+Armenia,Sex: Total,2016,42.58
+Armenia,Sex: Male,2016,45.39
+Armenia,Sex: Female,2016,39.45
+Armenia,Sex: Total,2015,43.8
+Armenia,Sex: Male,2015,46.96
+Armenia,Sex: Female,2015,40.2
+Armenia,Sex: Total,2014,45.23
+Armenia,Sex: Male,2014,49.3
+Armenia,Sex: Female,2014,40.52
+Armenia,Sex: Total,2013,45.77
+Armenia,Sex: Male,2013,48.14
+Armenia,Sex: Female,2013,42.63
+Armenia,Sex: Total,2012,45.61
+Armenia,Sex: Male,2012,48.42
+Armenia,Sex: Female,2012,42.23
+Armenia,Sex: Total,2011,45.37
+Armenia,Sex: Male,2011,48.29
+Armenia,Sex: Female,2011,41.71
+Armenia,Sex: Total,2010,46.43
+Armenia,Sex: Male,2010,49.48
+Armenia,Sex: Female,2010,41.85
+Armenia,Sex: Total,2009,45.87
+Armenia,Sex: Male,2009,48.9
+Armenia,Sex: Female,2009,41.81
+Armenia,Sex: Total,2008,46.56
+Armenia,Sex: Male,2008,49.29
+Armenia,Sex: Female,2008,42.96
+Armenia,Sex: Total,2007,45.1
+Armenia,Sex: Male,2007,47.86
+Armenia,Sex: Female,2007,41.18
+Bosnia and Herzegovina,Sex: Total,2023,41.39
+Bosnia and Herzegovina,Sex: Male,2023,41.51
+Bosnia and Herzegovina,Sex: Female,2023,41.2
+Bosnia and Herzegovina,Sex: Total,2022,41.68
+Bosnia and Herzegovina,Sex: Male,2022,41.82
+Bosnia and Herzegovina,Sex: Female,2022,41.45
+Bosnia and Herzegovina,Sex: Total,2021,42.17
+Bosnia and Herzegovina,Sex: Male,2021,42.54
+Bosnia and Herzegovina,Sex: Female,2021,41.54
+Bosnia and Herzegovina,Sex: Total,2020,40.93
+Bosnia and Herzegovina,Sex: Male,2020,41.26
+Bosnia and Herzegovina,Sex: Female,2020,40.39
+Bosnia and Herzegovina,Sex: Total,2019,42.45
+Bosnia and Herzegovina,Sex: Male,2019,42.8
+Bosnia and Herzegovina,Sex: Female,2019,41.87
+Bosnia and Herzegovina,Sex: Total,2018,41.92
+Bosnia and Herzegovina,Sex: Male,2018,42.61
+Bosnia and Herzegovina,Sex: Female,2018,40.77
+Bosnia and Herzegovina,Sex: Total,2017,41.9
+Bosnia and Herzegovina,Sex: Male,2017,42.22
+Bosnia and Herzegovina,Sex: Female,2017,41.37
+Bosnia and Herzegovina,Sex: Total,2016,42.53
+Bosnia and Herzegovina,Sex: Male,2016,43.13
+Bosnia and Herzegovina,Sex: Female,2016,41.49
+Bosnia and Herzegovina,Sex: Total,2015,41.88
+Bosnia and Herzegovina,Sex: Male,2015,42.6
+Bosnia and Herzegovina,Sex: Female,2015,40.71
+Bosnia and Herzegovina,Sex: Total,2014,42.2
+Bosnia and Herzegovina,Sex: Male,2014,42.53
+Bosnia and Herzegovina,Sex: Female,2014,41.64
+Bosnia and Herzegovina,Sex: Total,2013,42.47
+Bosnia and Herzegovina,Sex: Male,2013,42.93
+Bosnia and Herzegovina,Sex: Female,2013,41.71
+Bosnia and Herzegovina,Sex: Total,2012,42.14
+Bosnia and Herzegovina,Sex: Male,2012,42.53
+Bosnia and Herzegovina,Sex: Female,2012,41.47
+Bosnia and Herzegovina,Sex: Total,2011,42.14
+Bosnia and Herzegovina,Sex: Male,2011,42.64
+Bosnia and Herzegovina,Sex: Female,2011,41.27
+Bosnia and Herzegovina,Sex: Total,2010,42.5
+Bosnia and Herzegovina,Sex: Male,2010,42.92
+Bosnia and Herzegovina,Sex: Female,2010,41.76
+Bosnia and Herzegovina,Sex: Total,2009,42.77
+Bosnia and Herzegovina,Sex: Male,2009,43.52
+Bosnia and Herzegovina,Sex: Female,2009,41.4
+Bosnia and Herzegovina,Sex: Total,2008,43.19
+Bosnia and Herzegovina,Sex: Male,2008,44.14
+Bosnia and Herzegovina,Sex: Female,2008,41.43
+Bosnia and Herzegovina,Sex: Total,2007,42.68
+Bosnia and Herzegovina,Sex: Male,2007,43.32
+Bosnia and Herzegovina,Sex: Female,2007,41.45
+Bosnia and Herzegovina,Sex: Total,2006,42.44
+Bosnia and Herzegovina,Sex: Male,2006,43.22
+Bosnia and Herzegovina,Sex: Female,2006,40.98
+Bosnia and Herzegovina,Sex: Total,2001,43.38
+Bosnia and Herzegovina,Sex: Male,2001,44.32
+Bosnia and Herzegovina,Sex: Female,2001,41.47
+Belarus,Sex: Total,2023,39.18
+Belarus,Sex: Male,2023,39.94
+Belarus,Sex: Female,2023,38.38
+Belarus,Sex: Total,2022,39.14
+Belarus,Sex: Male,2022,39.9
+Belarus,Sex: Female,2022,38.34
+Belarus,Sex: Total,2021,39.23
+Belarus,Sex: Male,2021,39.91
+Belarus,Sex: Female,2021,38.51
+Belarus,Sex: Total,2020,39.16
+Belarus,Sex: Male,2020,39.85
+Belarus,Sex: Female,2020,38.41
+Belarus,Sex: Total,2019,39.24
+Belarus,Sex: Male,2019,40.01
+Belarus,Sex: Female,2019,38.38
+Belarus,Sex: Total,2018,39.39
+Belarus,Sex: Male,2018,40.08
+Belarus,Sex: Female,2018,38.62
+Belarus,Sex: Total,2017,39.3
+Belarus,Sex: Male,2017,39.99
+Belarus,Sex: Female,2017,38.54
+Belarus,Sex: Total,2016,39.09
+Belarus,Sex: Male,2016,39.78
+Belarus,Sex: Female,2016,38.35
+Botswana,Sex: Total,2023,45.15
+Botswana,Sex: Male,2023,48.95
+Botswana,Sex: Female,2023,41.45
+Botswana,Sex: Total,2022,45.72
+Botswana,Sex: Male,2022,49.03
+Botswana,Sex: Female,2022,42.36
+Botswana,Sex: Total,2021,46.16
+Botswana,Sex: Male,2021,49.54
+Botswana,Sex: Female,2021,43.22
+Botswana,Sex: Total,2020,45.63
+Botswana,Sex: Male,2020,49.03
+Botswana,Sex: Female,2020,42.48
+Botswana,Sex: Total,2019,45.81
+Botswana,Sex: Male,2019,49.21
+Botswana,Sex: Female,2019,42.66
+Botswana,Sex: Total,2006,48.32
+Botswana,Sex: Male,2006,50.31
+Botswana,Sex: Female,2006,46.0
+Botswana,Sex: Total,1996,46.37
+Botswana,Sex: Male,1996,47.75
+Botswana,Sex: Female,1996,44.62
+Honduras,Sex: Total,2023,44.85
+Honduras,Sex: Male,2023,45.93
+Honduras,Sex: Female,2023,42.57
+Honduras,Sex: Total,2022,44.89
+Honduras,Sex: Male,2022,46.39
+Honduras,Sex: Female,2022,41.86
+Honduras,Sex: Total,2021,45.33
+Honduras,Sex: Male,2021,47.0
+Honduras,Sex: Female,2021,42.31
+Honduras,Sex: Total,2020,43.19
+Honduras,Sex: Male,2020,45.51
+Honduras,Sex: Female,2020,39.02
+Honduras,Sex: Total,2019,45.45
+Honduras,Sex: Male,2019,46.32
+Honduras,Sex: Female,2019,43.76
+Honduras,Sex: Total,2018,45.72
+Honduras,Sex: Male,2018,46.39
+Honduras,Sex: Female,2018,44.4
+Honduras,Sex: Total,2017,45.11
+Honduras,Sex: Male,2017,45.54
+Honduras,Sex: Female,2017,44.25
+Honduras,Sex: Total,2016,45.87
+Honduras,Sex: Male,2016,46.42
+Honduras,Sex: Female,2016,44.85
+Honduras,Sex: Total,2015,44.46
+Honduras,Sex: Male,2015,44.66
+Honduras,Sex: Female,2015,44.1
+Honduras,Sex: Total,2014,45.08
+Honduras,Sex: Male,2014,45.1
+Honduras,Sex: Female,2014,45.06
+Honduras,Sex: Total,2013,44.08
+Honduras,Sex: Male,2013,44.2
+Honduras,Sex: Female,2013,43.85
+Honduras,Sex: Total,2012,44.92
+Honduras,Sex: Male,2012,45.39
+Honduras,Sex: Female,2012,44.02
+Honduras,Sex: Total,2011,43.95
+Honduras,Sex: Male,2011,44.37
+Honduras,Sex: Female,2011,43.15
+Honduras,Sex: Total,2010,42.83
+Honduras,Sex: Male,2010,43.02
+Honduras,Sex: Female,2010,42.47
+Honduras,Sex: Total,2009,42.69
+Honduras,Sex: Male,2009,42.84
+Honduras,Sex: Female,2009,42.38
+Honduras,Sex: Total,2008,44.34
+Honduras,Sex: Male,2008,44.79
+Honduras,Sex: Female,2008,43.51
+Honduras,Sex: Total,2007,45.22
+Honduras,Sex: Male,2007,45.67
+Honduras,Sex: Female,2007,44.33
+Honduras,Sex: Total,2006,45.78
+Honduras,Sex: Male,2006,46.17
+Honduras,Sex: Female,2006,45.05
+Honduras,Sex: Total,2005,45.44
+Honduras,Sex: Male,2005,45.92
+Honduras,Sex: Female,2005,44.5
+Jordan,Sex: Total,2023,49.24
+Jordan,Sex: Male,2023,49.54
+Jordan,Sex: Female,2023,47.9
+Jordan,Sex: Total,2022,48.38
+Jordan,Sex: Male,2022,49.11
+Jordan,Sex: Female,2022,44.54
+Jordan,Sex: Total,2021,47.42
+Jordan,Sex: Male,2021,48.18
+Jordan,Sex: Female,2021,43.57
+Jordan,Sex: Total,2020,48.52
+Jordan,Sex: Male,2020,49.28
+Jordan,Sex: Female,2020,44.65
+Jordan,Sex: Total,2019,48.63
+Jordan,Sex: Male,2019,49.34
+Jordan,Sex: Female,2019,44.61
+Jordan,Sex: Total,2018,47.29
+Jordan,Sex: Male,2018,47.92
+Jordan,Sex: Female,2018,44.35
+Jordan,Sex: Total,2017,47.78
+Jordan,Sex: Male,2017,48.05
+Jordan,Sex: Female,2017,46.69
+North Macedonia,Sex: Total,2023,39.18
+North Macedonia,Sex: Male,2023,39.48
+North Macedonia,Sex: Female,2023,38.8
+North Macedonia,Sex: Total,2022,39.9
+North Macedonia,Sex: Male,2022,40.1
+North Macedonia,Sex: Female,2022,39.64
+North Macedonia,Sex: Total,2021,40.12
+North Macedonia,Sex: Male,2021,40.46
+North Macedonia,Sex: Female,2021,39.64
+North Macedonia,Sex: Total,2020,39.28
+North Macedonia,Sex: Male,2020,39.57
+North Macedonia,Sex: Female,2020,38.87
+North Macedonia,Sex: Total,2019,40.62
+North Macedonia,Sex: Male,2019,40.93
+North Macedonia,Sex: Female,2019,40.19
+North Macedonia,Sex: Total,2018,41.26
+North Macedonia,Sex: Male,2018,41.58
+North Macedonia,Sex: Female,2018,40.81
+North Macedonia,Sex: Total,2017,41.68
+North Macedonia,Sex: Male,2017,42.13
+North Macedonia,Sex: Female,2017,41.04
+North Macedonia,Sex: Total,2016,41.25
+North Macedonia,Sex: Male,2016,41.58
+North Macedonia,Sex: Female,2016,40.77
+North Macedonia,Sex: Total,2015,40.76
+North Macedonia,Sex: Male,2015,41.12
+North Macedonia,Sex: Female,2015,40.28
+North Macedonia,Sex: Total,2014,41.15
+North Macedonia,Sex: Male,2014,41.35
+North Macedonia,Sex: Female,2014,40.87
+North Macedonia,Sex: Total,2013,41.57
+North Macedonia,Sex: Male,2013,41.87
+North Macedonia,Sex: Female,2013,41.13
+North Macedonia,Sex: Total,2012,41.67
+North Macedonia,Sex: Male,2012,42.04
+North Macedonia,Sex: Female,2012,41.13
+North Macedonia,Sex: Total,2011,41.67
+North Macedonia,Sex: Male,2011,42.13
+North Macedonia,Sex: Female,2011,41.03
+North Macedonia,Sex: Total,2010,42.19
+North Macedonia,Sex: Male,2010,42.77
+North Macedonia,Sex: Female,2010,41.34
+North Macedonia,Sex: Total,2009,42.08
+North Macedonia,Sex: Male,2009,42.64
+North Macedonia,Sex: Female,2009,41.25
+North Macedonia,Sex: Total,2008,42.81
+North Macedonia,Sex: Male,2008,43.28
+North Macedonia,Sex: Female,2008,42.11
+North Macedonia,Sex: Total,2007,42.87
+North Macedonia,Sex: Male,2007,43.52
+North Macedonia,Sex: Female,2007,41.95
+North Macedonia,Sex: Total,2006,43.25
+North Macedonia,Sex: Male,2006,43.87
+North Macedonia,Sex: Female,2006,42.31
+Mauritius,Sex: Total,2023,35.16
+Mauritius,Sex: Male,2023,36.75
+Mauritius,Sex: Female,2023,30.44
+Mauritius,Sex: Total,2022,41.14
+Mauritius,Sex: Male,2022,42.14
+Mauritius,Sex: Female,2022,39.81
+Mauritius,Sex: Total,2021,40.89
+Mauritius,Sex: Male,2021,42.25
+Mauritius,Sex: Female,2021,39.08
+Mauritius,Sex: Total,2019,39.49
+Mauritius,Sex: Male,2019,41.59
+Mauritius,Sex: Female,2019,36.54
+Mauritius,Sex: Total,2018,38.22
+Mauritius,Sex: Male,2018,40.26
+Mauritius,Sex: Female,2018,35.29
+Mauritius,Sex: Total,2017,40.1
+Mauritius,Sex: Male,2017,42.16
+Mauritius,Sex: Female,2017,37.07
+Mauritius,Sex: Total,2016,39.36
+Mauritius,Sex: Male,2016,41.57
+Mauritius,Sex: Female,2016,36.05
+Mauritius,Sex: Total,2015,39.35
+Mauritius,Sex: Male,2015,41.58
+Mauritius,Sex: Female,2015,36.07
+Mauritius,Sex: Total,2014,38.67
+Mauritius,Sex: Male,2014,40.87
+Mauritius,Sex: Female,2014,35.27
+Mauritius,Sex: Total,2013,39.26
+Mauritius,Sex: Male,2013,41.59
+Mauritius,Sex: Female,2013,35.66
+Mauritius,Sex: Total,2012,39.94
+Mauritius,Sex: Male,2012,42.04
+Mauritius,Sex: Female,2012,36.47
+Mauritius,Sex: Total,2011,41.88
+Mauritius,Sex: Male,2011,43.98
+Mauritius,Sex: Female,2011,38.38
+Mauritius,Sex: Total,2010,40.6
+Mauritius,Sex: Male,2010,42.67
+Mauritius,Sex: Female,2010,37.08
+Mauritius,Sex: Total,2009,41.16
+Mauritius,Sex: Male,2009,43.04
+Mauritius,Sex: Female,2009,37.87
+Mauritius,Sex: Total,2008,40.89
+Mauritius,Sex: Male,2008,42.72
+Mauritius,Sex: Female,2008,37.61
+Mauritius,Sex: Total,2007,41.07
+Mauritius,Sex: Male,2007,42.92
+Mauritius,Sex: Female,2007,37.62
+Mauritius,Sex: Total,2006,41.58
+Mauritius,Sex: Male,2006,43.43
+Mauritius,Sex: Female,2006,38.12
+Mauritius,Sex: Total,2005,41.48
+Mauritius,Sex: Male,2005,43.18
+Mauritius,Sex: Female,2005,38.23
+Mauritius,Sex: Total,2004,41.58
+Mauritius,Sex: Male,2004,43.22
+Mauritius,Sex: Female,2004,38.48
+Mauritius,Sex: Total,2003,40.73
+Mauritius,Sex: Male,2003,42.29
+Mauritius,Sex: Female,2003,37.75
+Mauritius,Sex: Total,2002,41.64
+Mauritius,Sex: Male,2002,42.89
+Mauritius,Sex: Female,2002,39.25
+Mauritius,Sex: Total,2001,41.6
+Mauritius,Sex: Male,2001,42.88
+Mauritius,Sex: Female,2001,39.12
+Paraguay,Sex: Total,2023,43.44
+Paraguay,Sex: Male,2023,46.8
+Paraguay,Sex: Female,2023,38.75
+Paraguay,Sex: Total,2022,43.29
+Paraguay,Sex: Male,2022,46.41
+Paraguay,Sex: Female,2022,38.68
+Paraguay,Sex: Total,2021,43.03
+Paraguay,Sex: Male,2021,46.06
+Paraguay,Sex: Female,2021,38.49
+Paraguay,Sex: Total,2020,42.46
+Paraguay,Sex: Male,2020,45.5
+Paraguay,Sex: Female,2020,37.92
+Paraguay,Sex: Total,2019,43.01
+Paraguay,Sex: Male,2019,46.29
+Paraguay,Sex: Female,2019,38.31
+Paraguay,Sex: Total,2018,43.5
+Paraguay,Sex: Male,2018,46.57
+Paraguay,Sex: Female,2018,38.95
+Paraguay,Sex: Total,2017,44.26
+Paraguay,Sex: Male,2017,47.13
+Paraguay,Sex: Female,2017,39.74
+Paraguay,Sex: Total,2016,45.34
+Paraguay,Sex: Male,2016,48.05
+Paraguay,Sex: Female,2016,41.12
+Paraguay,Sex: Total,2015,44.67
+Paraguay,Sex: Male,2015,47.47
+Paraguay,Sex: Female,2015,40.62
+Paraguay,Sex: Total,2014,46.03
+Paraguay,Sex: Male,2014,49.3
+Paraguay,Sex: Female,2014,41.02
+Paraguay,Sex: Total,2013,46.11
+Paraguay,Sex: Male,2013,49.02
+Paraguay,Sex: Female,2013,42.09
+Paraguay,Sex: Total,2012,46.16
+Paraguay,Sex: Male,2012,49.38
+Paraguay,Sex: Female,2012,41.12
+Paraguay,Sex: Total,2011,48.15
+Paraguay,Sex: Male,2011,51.39
+Paraguay,Sex: Female,2011,43.09
+Paraguay,Sex: Total,2010,47.17
+Paraguay,Sex: Male,2010,49.86
+Paraguay,Sex: Female,2010,42.56
+Paraguay,Sex: Total,2009,46.82
+Paraguay,Sex: Male,2009,49.51
+Paraguay,Sex: Female,2009,42.24
+Paraguay,Sex: Total,2008,47.12
+Paraguay,Sex: Male,2008,50.31
+Paraguay,Sex: Female,2008,41.68
+Paraguay,Sex: Total,2007,48.37
+Paraguay,Sex: Male,2007,51.21
+Paraguay,Sex: Female,2007,43.67
+Paraguay,Sex: Total,2006,48.71
+Paraguay,Sex: Male,2006,51.13
+Paraguay,Sex: Female,2006,44.64
+Paraguay,Sex: Total,2005,47.52
+Paraguay,Sex: Male,2005,50.06
+Paraguay,Sex: Female,2005,43.74
+Paraguay,Sex: Total,2004,46.96
+Paraguay,Sex: Male,2004,49.0
+Paraguay,Sex: Female,2004,43.75
+Paraguay,Sex: Total,2003,46.24
+Paraguay,Sex: Male,2003,49.33
+Paraguay,Sex: Female,2003,41.32
+Paraguay,Sex: Total,2002,47.05
+Paraguay,Sex: Male,2002,49.35
+Paraguay,Sex: Female,2002,43.22
+Paraguay,Sex: Total,2001,44.55
+Paraguay,Sex: Male,2001,47.29
+Paraguay,Sex: Female,2001,40.24
+Paraguay,Sex: Total,1999,45.37
+Paraguay,Sex: Male,1999,47.39
+Paraguay,Sex: Female,1999,41.98
+Paraguay,Sex: Total,1998,46.01
+Paraguay,Sex: Male,1998,48.22
+Paraguay,Sex: Female,1998,42.63
+Rwanda,Sex: Total,2023,29.94
+Rwanda,Sex: Male,2023,31.94
+Rwanda,Sex: Female,2023,27.44
+Rwanda,Sex: Total,2022,29.13
+Rwanda,Sex: Male,2022,30.96
+Rwanda,Sex: Female,2022,26.79
+Rwanda,Sex: Total,2021,28.25
+Rwanda,Sex: Male,2021,30.26
+Rwanda,Sex: Female,2021,25.64
+Rwanda,Sex: Total,2020,31.27
+Rwanda,Sex: Male,2020,33.34
+Rwanda,Sex: Female,2020,28.5
+Rwanda,Sex: Total,2019,32.81
+Rwanda,Sex: Male,2019,35.43
+Rwanda,Sex: Female,2019,29.39
+Rwanda,Sex: Total,2018,33.33
+Rwanda,Sex: Male,2018,35.74
+Rwanda,Sex: Female,2018,30.17
+Rwanda,Sex: Total,2017,32.35
+Rwanda,Sex: Male,2017,34.35
+Rwanda,Sex: Female,2017,29.76
+Rwanda,Sex: Total,2014,33.59
+Rwanda,Sex: Male,2014,36.85
+Rwanda,Sex: Female,2014,28.07
+Serbia,Sex: Total,2023,41.07
+Serbia,Sex: Male,2023,41.64
+Serbia,Sex: Female,2023,40.42
+Serbia,Sex: Total,2022,41.57
+Serbia,Sex: Male,2022,42.16
+Serbia,Sex: Female,2022,40.86
+Serbia,Sex: Total,2021,41.64
+Serbia,Sex: Male,2021,42.33
+Serbia,Sex: Female,2021,40.82
+Serbia,Sex: Total,2020,41.75
+Serbia,Sex: Male,2020,42.43
+Serbia,Sex: Female,2020,40.93
+Serbia,Sex: Total,2019,42.1
+Serbia,Sex: Male,2019,42.79
+Serbia,Sex: Female,2019,41.26
+Serbia,Sex: Total,2018,42.0
+Serbia,Sex: Male,2018,42.68
+Serbia,Sex: Female,2018,41.18
+Serbia,Sex: Total,2017,42.13
+Serbia,Sex: Male,2017,42.83
+Serbia,Sex: Female,2017,41.27
+Serbia,Sex: Total,2016,42.4
+Serbia,Sex: Male,2016,43.28
+Serbia,Sex: Female,2016,41.36
+Serbia,Sex: Total,2015,42.22
+Serbia,Sex: Male,2015,43.09
+Serbia,Sex: Female,2015,41.16
+Serbia,Sex: Total,2014,40.52
+Serbia,Sex: Male,2014,41.44
+Serbia,Sex: Female,2014,39.38
+Serbia,Sex: Total,2013,43.0
+Serbia,Sex: Male,2013,43.83
+Serbia,Sex: Female,2013,41.95
+Serbia,Sex: Total,2012,42.98
+Serbia,Sex: Male,2012,43.89
+Serbia,Sex: Female,2012,41.83
+Serbia,Sex: Total,2011,42.84
+Serbia,Sex: Male,2011,43.83
+Serbia,Sex: Female,2011,41.56
+Serbia,Sex: Total,2010,42.72
+Serbia,Sex: Male,2010,43.6
+Serbia,Sex: Female,2010,41.62
+Serbia,Sex: Total,2009,42.59
+Serbia,Sex: Male,2009,43.51
+Serbia,Sex: Female,2009,41.45
+Serbia,Sex: Total,2008,42.94
+Serbia,Sex: Male,2008,43.88
+Serbia,Sex: Female,2008,41.72
+Serbia,Sex: Total,2007,43.9
+Serbia,Sex: Male,2007,45.37
+Serbia,Sex: Female,2007,42.1
+Zambia,Sex: Total,2023,47.4
+Zambia,Sex: Male,2023,49.19
+Zambia,Sex: Female,2023,43.59
+Zambia,Sex: Total,2022,47.89
+Zambia,Sex: Male,2022,49.61
+Zambia,Sex: Female,2022,44.01
+Zambia,Sex: Total,2021,46.33
+Zambia,Sex: Male,2021,47.72
+Zambia,Sex: Female,2021,43.04
+Zambia,Sex: Total,2020,46.89
+Zambia,Sex: Male,2020,48.12
+Zambia,Sex: Female,2020,44.15
+Zambia,Sex: Total,2019,47.51
+Zambia,Sex: Male,2019,48.62
+Zambia,Sex: Female,2019,44.92
+Zambia,Sex: Total,2018,46.37
+Zambia,Sex: Male,2018,47.4
+Zambia,Sex: Female,2018,43.7
+Zambia,Sex: Total,2017,46.99
+Zambia,Sex: Male,2017,48.56
+Zambia,Sex: Female,2017,43.09
