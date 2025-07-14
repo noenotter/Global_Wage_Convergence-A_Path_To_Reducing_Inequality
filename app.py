@@ -92,7 +92,7 @@ if compare_mode:
 
     col1, col2 = st.columns(2)
     for i, country in enumerate(compare_list):
-        img_path = f"Result/Plots/{country}.png"
+        img_path = f"Result/{country}.png"
         if os.path.exists(img_path):
             image = Image.open(img_path)
             with (col1 if i % 2 == 0 else col2):
