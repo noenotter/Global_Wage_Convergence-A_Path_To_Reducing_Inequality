@@ -1,0 +1,61 @@
+country,best_model,cv_mse,gap_low_2080,H-70,H-80,H-90,M-70,M-80,M-90,L-70,L-80,L-90,converges_low70
+Uruguay,Sqrt,0.0175,-0.3704,X,X,X,X,X,X,X,X,X,False
+South Africa,Logistic,0.0243,-0.4135,X,X,X,X,X,X,X,X,X,False
+Chile,Sqrt,0.005,-0.4225,X,X,X,X,X,X,X,X,X,False
+Ukraine,Logistic,0.04,-0.446,X,X,X,X,X,X,X,X,X,False
+Colombia,Linear,0.0145,-0.4867,X,X,X,X,X,X,X,X,X,False
+Trinidad and Tobago,Sqrt,0.0516,-0.5091,X,X,X,X,X,X,X,X,X,False
+Peru,Logistic,0.0182,-0.5443,X,X,X,X,X,X,X,X,X,False
+Honduras,Linear,0.0078,-0.5468,X,X,X,X,X,X,X,X,X,False
+Belarus,Logistic,0.0109,-0.6528,X,X,X,X,X,X,X,X,X,False
+Serbia,Logistic,0.0466,-0.6871,X,X,X,X,X,X,X,X,X,False
+Moldova,Logistic,0.0531,-0.7709,X,X,X,X,X,X,X,X,X,False
+"Iran, Islamic Rep.",Sqrt,0.0216,-0.9487,X,X,X,X,X,X,X,X,X,False
+North Macedonia,Logistic,0.0192,-0.9832,X,X,X,X,X,X,X,X,X,False
+Lebanon,Sqrt,0.0254,-0.9841,X,X,X,X,X,X,X,X,X,False
+Armenia,Logistic,0.0246,-1.0026,X,X,X,X,X,X,X,X,X,False
+Barbados,Logistic,0.005,-1.0179,X,X,X,X,X,X,X,X,X,False
+Botswana,Linear,0.0071,-1.0291,X,X,X,X,X,X,X,X,X,False
+"Egypt, Arab Rep.",Sqrt,0.0144,-1.0616,X,X,X,X,X,X,X,X,X,False
+Jamaica,Sqrt,0.0068,-1.0789,X,X,X,X,X,X,X,X,X,False
+Kazakhstan,Logistic,0.0265,-1.2499,X,X,X,X,X,X,X,X,X,False
+Jordan,Logistic,0.0152,-1.2501,X,X,X,X,X,X,X,X,X,False
+Kuwait,Logistic,0.0201,-1.2668,X,X,X,X,X,X,X,X,X,False
+"Bahamas, The",Logistic,0.0045,-1.2758,X,X,X,X,X,X,X,X,X,False
+Suriname,Logistic,0.0121,-1.3391,X,X,X,X,X,X,X,X,X,False
+Tajikistan,Logistic,0.1172,-1.3403,X,X,X,X,X,X,X,X,X,False
+Burkina Faso,Linear,0.0051,-1.3569,X,X,X,X,X,X,X,X,X,False
+Guatemala,Linear,0.0031,-1.3589,X,X,X,X,X,X,X,X,X,False
+Dominican Republic,Sqrt,0.0038,-1.3592,X,X,X,X,X,X,X,X,X,False
+Tanzania,Linear,0.0427,-1.4698,X,X,X,X,X,X,X,X,X,False
+Nicaragua,Linear,0.0017,-1.4947,X,X,X,X,X,X,X,X,X,False
+Oman,Sqrt,0.0317,-1.5019,X,X,X,X,X,X,X,X,X,False
+Fiji,Sqrt,0.017,-1.5034,X,X,X,X,X,X,X,X,X,False
+Tunisia,Logistic,0.0048,-1.6063,X,X,X,X,X,X,X,X,X,False
+Lesotho,Linear,0.0242,-1.6286,X,X,X,X,X,X,X,X,X,False
+Bahrain,Linear,0.0108,-1.7356,X,X,X,X,X,X,X,X,X,False
+Saudi Arabia,Sqrt,0.0163,-1.7528,X,X,X,X,X,X,X,X,X,False
+Namibia,Sqrt,0.0126,-1.7561,X,X,X,X,X,X,X,X,X,False
+Mexico,Logistic,0.0027,-1.7672,X,X,X,X,X,X,X,X,X,False
+Sierra Leone,Logistic,0.047,-1.7878,X,X,X,X,X,X,X,X,X,False
+Cabo Verde,Logistic,0.008,-1.8117,X,X,X,X,X,X,X,X,X,False
+Qatar,Sqrt,0.0635,-1.8517,X,X,X,X,X,X,X,X,X,False
+Senegal,Linear,0.0031,-1.9106,X,X,X,X,X,X,X,X,X,False
+Gabon,Sqrt,0.0179,-1.983,X,X,X,X,X,X,X,X,X,False
+Cameroon,Logistic,0.0099,-1.9942,X,X,X,X,X,X,X,X,X,False
+Bolivia,Sqrt,0.0137,-2.0169,X,X,X,X,X,X,X,X,X,False
+Azerbaijan,Logistic,0.1767,-2.1084,X,X,X,X,X,X,X,X,X,False
+Sudan,Sqrt,0.0137,-2.1827,X,X,X,X,X,X,X,X,X,False
+Benin,Linear,0.003,-2.5887,X,X,X,X,X,X,X,X,X,False
+Kyrgyz Republic,Logistic,0.0155,-2.645,X,X,X,X,X,X,X,X,X,False
+Nigeria,Logistic,0.0505,-2.6634,X,X,X,X,X,X,X,X,X,False
+Mauritania,Logistic,0.0044,-2.703,X,X,X,X,X,X,X,X,X,False
+Angola,Logistic,0.0601,-2.7524,X,X,X,X,X,X,X,X,X,False
+Zambia,Logistic,0.0259,-2.9296,X,X,X,X,X,X,X,X,X,False
+Togo,Sqrt,0.0124,-3.0078,X,X,X,X,X,X,X,X,X,False
+Zimbabwe,Logistic,0.0758,-3.3699,X,X,X,X,X,X,X,X,X,False
+Chad,Logistic,0.0499,-3.697,X,X,X,X,X,X,X,X,X,False
+Niger,Logistic,0.0165,-4.2882,X,X,X,X,X,X,X,X,X,False
+Mozambique,Logistic,0.0254,-4.3299,X,X,X,X,X,X,X,X,X,False
+Burundi,Linear,0.0105,-6.1212,X,X,X,X,X,X,X,X,X,False
+Central African Republic,Linear,0.022,-7.0441,X,X,X,X,X,X,X,X,X,False
