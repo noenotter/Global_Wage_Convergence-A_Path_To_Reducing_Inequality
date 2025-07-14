@@ -61,7 +61,7 @@ else:
     img_path = f"Result/{selected_country}.png"
     if os.path.exists(img_path):
         image = Image.open(img_path)
-        st.image(image, caption=f"Projected convergence for {selected_country}", use_column_width=True)
+        st.image(image, caption=f"Projected convergence for {selected_country}", use_container_width=True)
 
         # Convert image to bytes and offer download
         img_bytes = BytesIO()
@@ -96,6 +96,6 @@ if compare_mode:
         if os.path.exists(img_path):
             image = Image.open(img_path)
             with (col1 if i % 2 == 0 else col2):
-                st.image(image, caption=country, use_column_width=True)
+                st.image(image, caption=country, use_container_width=True)
         else:
             st.warning(f"No plot available for {country}")
