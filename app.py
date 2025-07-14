@@ -58,7 +58,7 @@ else:
     """)
 
     # Load and display plot
-    img_path = f"Result/Plots/{selected_country}.png"
+    img_path = f"Result/{selected_country}.png"
     if os.path.exists(img_path):
         image = Image.open(img_path)
         st.image(image, caption=f"Projected convergence for {selected_country}", use_column_width=True)
