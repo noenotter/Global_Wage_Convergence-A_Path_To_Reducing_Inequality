@@ -1,0 +1,49 @@
+country,model,gap_low_2080,H-70,H-80,H-90,M-70,M-80,M-90,L-70,L-80,L-90,converges_low70
+South Africa,Linear,-0.4127,X,X,X,X,X,X,X,X,X,False
+Tunisia,Linear,-0.4446,X,X,X,X,X,X,X,X,X,False
+Colombia,Linear,-0.4867,X,X,X,X,X,X,X,X,X,False
+Moldova,Linear,-0.5119,X,X,X,X,X,X,X,X,X,False
+Lebanon,Linear,-0.5315,X,X,X,X,X,X,X,X,X,False
+Peru,Linear,-0.5442,X,X,X,X,X,X,X,X,X,False
+Honduras,Linear,-0.5468,X,X,X,X,X,X,X,X,X,False
+Barbados,Linear,-0.872,X,X,X,X,X,X,X,X,X,False
+Dominican Republic,Linear,-0.8747,X,X,X,X,X,X,X,X,X,False
+Azerbaijan,Linear,-0.9005,X,X,X,X,X,X,X,X,X,False
+Botswana,Linear,-1.0291,X,X,X,X,X,X,X,X,X,False
+Fiji,Linear,-1.0643,X,X,X,X,X,X,X,X,X,False
+North Macedonia,Linear,-1.1593,X,X,X,X,X,X,X,X,X,False
+Nigeria,Linear,-1.2081,X,X,X,X,X,X,X,X,X,False
+"Bahamas, The",Linear,-1.2351,X,X,X,X,X,X,X,X,X,False
+Kuwait,Linear,-1.2751,X,X,X,X,X,X,X,X,X,False
+Suriname,Linear,-1.3227,X,X,X,X,X,X,X,X,X,False
+Tajikistan,Linear,-1.3402,X,X,X,X,X,X,X,X,X,False
+Burkina Faso,Linear,-1.3569,X,X,X,X,X,X,X,X,X,False
+Guatemala,Linear,-1.3589,X,X,X,X,X,X,X,X,X,False
+Tanzania,Linear,-1.4698,X,X,X,X,X,X,X,X,X,False
+Kenya,Linear,-1.4937,X,X,X,X,X,X,X,X,X,False
+Nicaragua,Linear,-1.4947,X,X,X,X,X,X,X,X,X,False
+Bolivia,Linear,-1.5103,X,X,X,X,X,X,X,X,X,False
+Angola,Linear,-1.5736,X,X,X,X,X,X,X,X,X,False
+Lesotho,Linear,-1.6286,X,X,X,X,X,X,X,X,X,False
+Mexico,Linear,-1.6905,X,X,X,X,X,X,X,X,X,False
+Namibia,Linear,-1.7068,X,X,X,X,X,X,X,X,X,False
+Bahrain,Linear,-1.7356,X,X,X,X,X,X,X,X,X,False
+Sierra Leone,Linear,-1.7877,X,X,X,X,X,X,X,X,X,False
+Oman,Linear,-1.8416,X,X,X,X,X,X,X,X,X,False
+Senegal,Linear,-1.9106,X,X,X,X,X,X,X,X,X,False
+Zambia,Linear,-1.9452,X,X,X,X,X,X,X,X,X,False
+Sudan,Linear,-1.9866,X,X,X,X,X,X,X,X,X,False
+Cameroon,Linear,-1.9942,X,X,X,X,X,X,X,X,X,False
+Mozambique,Linear,-2.0117,X,X,X,X,X,X,X,X,X,False
+Chad,Linear,-2.0678,X,X,X,X,X,X,X,X,X,False
+Kyrgyz Republic,Linear,-2.1055,X,X,X,X,X,X,X,X,X,False
+Saudi Arabia,Linear,-2.3493,X,X,X,X,X,X,X,X,X,False
+Qatar,Linear,-2.4962,X,X,X,X,X,X,X,X,X,False
+Gabon,Linear,-2.5434,X,X,X,X,X,X,X,X,X,False
+Benin,Linear,-2.5887,X,X,X,X,X,X,X,X,X,False
+Togo,Linear,-2.661,X,X,X,X,X,X,X,X,X,False
+Mauritania,Linear,-2.7836,X,X,X,X,X,X,X,X,X,False
+Zimbabwe,Linear,-3.7562,X,X,X,X,X,X,X,X,X,False
+Niger,Linear,-4.2882,X,X,X,X,X,X,X,X,X,False
+Burundi,Linear,-6.1212,X,X,X,X,X,X,X,X,X,False
+Central African Republic,Linear,-7.0441,X,X,X,X,X,X,X,X,X,False
