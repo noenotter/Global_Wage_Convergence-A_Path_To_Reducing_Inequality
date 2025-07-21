@@ -61,8 +61,8 @@ else:
     
     st.markdown(f"- **Gap in 2080**: {gap_2080}")
     if mode == 'Best-model (original)':
-        st.markdown(f"- **Best model**: {best_model}  
-                    - **CV MSE**: {mse}")
+        st.markdown(f"- **Best model**: {best_model}")
+        st.markdown(f"- **CV MSE**: {mse}")
 
     # Display plot
     plot_name = f"{selected_country.replace(' ', '_')}{suffix}.png"
