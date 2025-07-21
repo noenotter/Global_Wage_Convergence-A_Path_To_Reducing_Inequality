@@ -50,18 +50,23 @@ if row.empty:
 else:
     result = row.iloc[0][col_key]
     gap_2080 = row.iloc[0]['gap_low_2080']
+    # compute model info for display
     if mode == 'Best-model (original)':
         best_model = row.iloc[0]['best_model']
         mse = row.iloc[0]['cv_mse']
-    
+    else:
+        best_model = 'Linear'
+        mse = row.iloc[0].get('cv_mse', None)
+
     if result == 'X':
         st.error(f"❌ {selected_country} does not converge under {growth}/{threshold}%.")
     else:
         st.success(f"✅ Converges in **{int(result)}** under {growth}/{threshold}%.")
     
     st.markdown(f"- **Gap in 2080**: {gap_2080}")
-    if mode == 'Best-model (original)':
-        st.markdown(f"- **Best model**: {best_model}")
+    # display model and mse
+    st.markdown(f"- **Model**: {best_model}")
+    if mse is not None:
         st.markdown(f"- **CV MSE**: {mse}")
 
     # Display plot
@@ -94,3 +99,4 @@ if compare:
             col.image(img, caption=country, use_container_width=True)
         else:
             col.warning(f"No plot for {country}")
+
