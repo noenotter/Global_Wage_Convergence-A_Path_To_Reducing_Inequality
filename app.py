@@ -69,7 +69,7 @@ else:
     plot_path = os.path.join('Result', plot_name)
     if os.path.exists(plot_path):
         image = Image.open(plot_path)
-        st.image(image, caption=selected_country, use_column_width=True)
+        st.image(image, caption=selected_country, use_container_width=True)
         buf = BytesIO()
         image.save(buf, format='PNG')
         buf.seek(0)
@@ -91,6 +91,6 @@ if compare:
         col = cols[idx % 2]
         if os.path.exists(path):
             img = Image.open(path)
-            col.image(img, caption=country, use_column_width=True)
+            col.image(img, caption=country, use_container_width=True)
         else:
             col.warning(f"No plot for {country}")
