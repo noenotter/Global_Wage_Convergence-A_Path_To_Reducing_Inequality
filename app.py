@@ -66,7 +66,7 @@ else:
 
     # Display plot
     plot_name = f"{selected_country.replace(' ', '_')}{suffix}.png"
-    plot_path = os.path.join('Result', 'Plots', plot_name)
+    plot_path = os.path.join('Result', plot_name)
     if os.path.exists(plot_path):
         image = Image.open(plot_path)
         st.image(image, caption=selected_country, use_column_width=True)
@@ -87,7 +87,7 @@ if compare:
     cols = st.columns(2)
     for idx, country in enumerate(mult):
         name = f"{country.replace(' ', '_')}{suffix}.png"
-        path = os.path.join('Result', 'Plots', name)
+        path = os.path.join('Result', name)
         col = cols[idx % 2]
         if os.path.exists(path):
             img = Image.open(path)
