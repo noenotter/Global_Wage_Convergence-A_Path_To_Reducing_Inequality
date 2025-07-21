@@ -4,98 +4,93 @@ import os
 from PIL import Image
 from io import BytesIO
 
-# Title and intro
-st.title("Wage Convergence Explorer")
-st.write("""
-Welcome! This app will help you explore wage convergence projections.
-Use the sidebar to select a country, growth scenario, and convergence threshold.
-""")
+# --- Configuration ---
+MODE_OPTIONS = ['Linear only', 'Best-model (original)']
+SCENARIOS = ['Low', 'Medium', 'High']
+THRESHOLDS = ['70', '80', '90']
 
-# Load both convergers and divergers files
-df_conv = pd.read_csv("Result/V30_convergers_low70.csv")
-df_div = pd.read_csv("Result/V30_divergers_low70.csv")
+# --- Sidebar ---
+st.sidebar.title("Settings")
+mode = st.sidebar.radio("Select mode:", MODE_OPTIONS)
+
+# Determine file suffixes based on mode
+suffix = '_linear' if mode == 'Linear only' else ''
+
+# --- Load Data ---
+conv_path = f"Result/V30_convergers_low70{suffix}.csv"
+div_path  = f"Result/V30_divergers_low70{suffix}.csv"
+df_conv = pd.read_csv(conv_path)
+df_div  = pd.read_csv(div_path)
 df = pd.concat([df_conv, df_div], ignore_index=True)
 df['country'] = df['country'].str.strip()
 
-# === Country Selection (Grouped Dropdown with Filter) ===
-st.sidebar.subheader("Country selection mode")
-country_group = st.sidebar.radio("Filter by group:", ['All', 'Convergers only', 'Divergers only'])
-
-if country_group == 'Convergers only':
-    filtered_countries = sorted(df_conv['country'].unique())
-elif country_group == 'Divergers only':
-    filtered_countries = sorted(df_div['country'].unique())
+# --- Country Selection ---
+st.sidebar.subheader("Country Group")
+group = st.sidebar.radio("Filter by group:", ['All', 'Convergers only', 'Divergers only'])
+if group == 'Convergers only':
+    countries = sorted(df_conv['country'].unique())
+elif group == 'Divergers only':
+    countries = sorted(df_div['country'].unique())
 else:
-    filtered_countries = sorted(df['country'].unique())
+    countries = sorted(df['country'].unique())
+selected_country = st.sidebar.selectbox("Select a country:", countries)
 
-selected_country = st.sidebar.selectbox("Select a country:", filtered_countries)
+# --- Scenario & Threshold ---
+st.sidebar.subheader("Scenario & Threshold")
+growth = st.sidebar.selectbox("Growth scenario:", SCENARIOS)
+threshold = st.sidebar.selectbox("Threshold (%):", THRESHOLDS)
+col_key = f"{growth[0]}-{threshold}"
 
-# === Scenario Selection ===
-growth = st.sidebar.selectbox("Select growth scenario:", ['Low', 'Medium', 'High'])
-threshold = st.sidebar.selectbox("Select convergence threshold:", ['70', '80', '90'])
-column = f"{growth[0]}-{threshold}"
-
-# === Main Output ===
+# --- Main ---
+st.title("Wage Convergence Explorer")
+st.write(f"**Mode:** {mode}")
 row = df[df['country'] == selected_country]
-
 if row.empty:
-    st.warning(f"No data found for {selected_country}.")
+    st.warning(f"No data for {selected_country} in this mode.")
 else:
-    result = row.iloc[0][column]
+    result = row.iloc[0][col_key]
     gap_2080 = row.iloc[0]['gap_low_2080']
-    best_model = row.iloc[0]['best_model']
-    mse = row.iloc[0]['cv_mse']
-
+    if mode == 'Best-model (original)':
+        best_model = row.iloc[0]['best_model']
+        mse = row.iloc[0]['cv_mse']
+    
     if result == 'X':
-        st.error(f"❌ {selected_country} does **not** converge under {growth} growth with {threshold}% threshold.")
+        st.error(f"❌ {selected_country} does not converge under {growth}/{threshold}%.")
     else:
-        st.success(f"✅ {selected_country} is projected to converge in **{int(result)}** under {growth} growth with {threshold}% threshold.")
+        st.success(f"✅ Converges in **{int(result)}** under {growth}/{threshold}%.")
+    
+    st.markdown(f"- **Gap in 2080**: {gap_2080}")
+    if mode == 'Best-model (original)':
+        st.markdown(f"- **Best model**: {best_model}  
+                    - **CV MSE**: {mse}")
 
-    st.markdown(f"""
-    - **Gap to OECD in 2080**: {gap_2080}
-    - **Best model**: {best_model}
-    - **Cross-validated MSE**: {mse}
-    """)
-
-    # Load and display plot
-    img_path = f"Result/{selected_country}.png"
-    if os.path.exists(img_path):
-        image = Image.open(img_path)
-        st.image(image, caption=f"Projected convergence for {selected_country}", use_container_width=True)
-
-        # Convert image to bytes and offer download
-        img_bytes = BytesIO()
-        image.save(img_bytes, format="PNG")
-        img_bytes.seek(0)
-
-        st.download_button(
-            label="📥 Download this chart as PNG",
-            data=img_bytes,
-            file_name=f"{selected_country}_convergence_plot.png",
-            mime="image/png"
-        )
+    # Display plot
+    plot_name = f"{selected_country.replace(' ', '_')}{suffix}.png"
+    plot_path = os.path.join('Result', 'Plots', plot_name)
+    if os.path.exists(plot_path):
+        image = Image.open(plot_path)
+        st.image(image, caption=selected_country, use_column_width=True)
+        buf = BytesIO()
+        image.save(buf, format='PNG')
+        buf.seek(0)
+        st.download_button("Download chart", data=buf,
+                            file_name=f"{selected_country}_convergence{suffix}.png",
+                            mime="image/png")
     else:
-        st.info("No convergence plot available for this country.")
+        st.info("Plot not available.")
 
-# === Compare Countries Mode ===
+# --- Comparison Mode ---
 st.markdown("---")
-st.subheader("📊 Compare Multiple Countries")
-
-compare_mode = st.checkbox("Enable comparison mode")
-
-if compare_mode:
-    compare_list = st.multiselect(
-        "Select up to 4 countries to compare:",
-        sorted(df['country'].unique()),
-        max_selections=4
-    )
-
-    col1, col2 = st.columns(2)
-    for i, country in enumerate(compare_list):
-        img_path = f"Result/{country}.png"
-        if os.path.exists(img_path):
-            image = Image.open(img_path)
-            with (col1 if i % 2 == 0 else col2):
-                st.image(image, caption=country, use_container_width=True)
+compare = st.checkbox("Enable comparison mode")
+if compare:
+    mult = st.multiselect("Select up to 4 countries:", countries, max_selections=4)
+    cols = st.columns(2)
+    for idx, country in enumerate(mult):
+        name = f"{country.replace(' ', '_')}{suffix}.png"
+        path = os.path.join('Result', 'Plots', name)
+        col = cols[idx % 2]
+        if os.path.exists(path):
+            img = Image.open(path)
+            col.image(img, caption=country, use_column_width=True)
         else:
-            st.warning(f"No plot available for {country}")
+            col.warning(f"No plot for {country}")
