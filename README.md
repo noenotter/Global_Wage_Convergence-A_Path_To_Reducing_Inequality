@@ -5,7 +5,7 @@
 This repository accompanies the research paper:
 
 **“Global Wage Convergence: A Path to Reducing Inequality?”**  
-📄 _Submitted to World Development_
+📄 _The Journal of Economic Inequality_
 
 ---
 
